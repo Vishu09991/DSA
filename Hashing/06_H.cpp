@@ -1,6 +1,7 @@
 /*
 Mapping
 Map in C++
+Output comes in ordered Way
 */
 
 #include<iostream>
