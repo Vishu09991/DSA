@@ -1,8 +1,6 @@
 /*
-Mapping
-Map in C++
+Mapping Using Auto it loop
 */
-
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;
@@ -26,17 +24,6 @@ int main(){
     // it.second -->value
     for(auto it : mpp){
         cout << it.first << "-->" << it.second<<endl;
-    }
-
-    int q;
-    cout << "Enter how many Numbers for which you have to check : ";
-    cin >> q;
-    while(q--){
-        int num;
-        cout << "Number : ";
-        cin >> num;
-
-        cout << "Occurence "<<mpp[num]<<endl;
     }
     return 0;
 }
