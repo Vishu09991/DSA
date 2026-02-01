@@ -1,0 +1,156 @@
+/*
+How are Soritng Ques asked in interviews and 
+Like What kiind of ques are asked and from whats topics
+
+Good question — sorting questions are a BIG interview favorite, especially for CS/IT + product/FinTech roles 👍
+Let me break it down interview-style, clean and practical.
+
+🔹 How Sorting Questions Are Asked in Interviews
+
+They usually come in 3 forms 👇
+
+1️⃣ Direct Algorithm Questions
+
+They check basics + understanding
+
+Examples:
+
+Explain Insertion Sort / Merge Sort / Quick Sort
+
+Write code for Bubble Sort
+
+Which sorting algorithm is stable?
+
+Which one works best for nearly sorted arrays?
+
+Time & space complexity of Merge Sort?
+
+👉 Expect follow-ups, not just definition.
+
+2️⃣ Problem-Solving Using Sorting
+
+Sorting is used as a tool, not the final answer.
+
+Examples:
+
+Find 2nd largest element
+
+Check if array elements form a pair with given sum
+
+Merge two sorted arrays
+
+Sort an array of 0s, 1s, 2s
+
+Find minimum difference pair
+
+💡 Interviewer wants to see:
+
+Why you chose sorting
+
+Can it be optimized without sorting?
+
+3️⃣ Tricky / Conceptual Questions
+
+These test depth, not memorization.
+
+Examples:
+
+Why is Quick Sort faster in practice than Merge Sort?
+
+Why is Merge Sort preferred for linked lists?
+
+Why can’t Counting Sort be used everywhere?
+
+Is std::sort() stable?
+
+Can sorting be done in O(n)?
+
+🔹 Topics You MUST Prepare for Sorting
+✅ Core Sorting Algorithms (VERY IMPORTANT)
+Algorithm	Asked?	Why
+Bubble Sort	✅	Basics, swaps
+Selection Sort	⚠️	Comparisons
+Insertion Sort	✅✅	Best for nearly sorted
+Merge Sort	✅✅	Divide & Conquer
+Quick Sort	✅✅	Real-world use
+Heap Sort	⚠️	Priority queues
+✅ Time & Space Complexity
+
+They always ask this.
+
+Algorithm	Best	Avg	Worst	Space
+Bubble	O(n)	O(n²)	O(n²)	O(1)
+Insertion	O(n)	O(n²)	O(n²)	O(1)
+Merge	O(n log n)	O(n log n)	O(n log n)	O(n)
+Quick	O(n log n)	O(n log n)	O(n²)	O(log n)
+Heap	O(n log n)	O(n log n)	O(n log n)	O(1)
+✅ Stability & Adaptiveness (Interview FAV 🔥)
+
+Stability → Equal elements keep their order
+Adaptive → Faster if array is nearly sorted
+
+Algorithm	Stable?	Adaptive?
+Bubble	✅	✅
+Insertion	✅	✅
+Merge	✅	❌
+Quick	❌	❌
+Heap	❌	❌
+🔹 Common Trick Questions
+
+Why insertion sort is used in real systems?
+→ Small datasets, cache friendly, nearly sorted
+
+Why Quick Sort is preferred?
+→ In-place, good cache performance
+
+Why Merge Sort not used for arrays in practice?
+→ Extra memory
+
+When will Quick Sort give worst case?
+→ Already sorted array + bad pivot
+
+🔹 Languages-Specific Questions
+C / C++
+
+qsort() vs std::sort()
+
+Is std::sort() stable? ❌
+
+What algorithm does std::sort() use? → Introsort
+
+Java
+
+Collections.sort() → TimSort
+
+Why TimSort? → Real-world partially sorted data
+
+Python
+
+sorted() uses TimSort
+
+Why it is fast even though O(n log n)?
+
+🔹 What Interviewers REALLY Want
+
+✔ Can you explain the logic
+✔ Can you trace the algorithm step-by-step
+✔ Can you choose the right algorithm
+✔ Can you optimize brute force
+
+🔹 How YOU Should Prepare (Simple Plan)
+
+1️⃣ Master Insertion, Merge, Quick
+2️⃣ Write code without seeing
+3️⃣ Practice 1 problem per algorithm
+4️⃣ Always explain why this sort?
+
+If you want, next I can:
+
+Explain Insertion Sort step-by-step like interview
+
+Give top 10 sorting interview questions
+
+Do mock interview Q&A (you answer, I correct)
+
+Just tell me 😄
+*/
