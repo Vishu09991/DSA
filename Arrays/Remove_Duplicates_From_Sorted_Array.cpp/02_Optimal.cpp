@@ -1,5 +1,6 @@
 /*
-optimal Aaproach
+Optimal Aaproach
+2 Pointers
 */
 #include <iostream>
 #include <bits/stdc++.h>
@@ -16,10 +17,6 @@ int main()
         {
             arr[i + 1] = arr[j];
             i++;
-        }
-        else
-        {
-            j++;
         }
     }
     for (int k = 0; k <= i; k++)
