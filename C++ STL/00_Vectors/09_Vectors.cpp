@@ -12,8 +12,8 @@ int main(){
     v.emplace_back(40);
     v.emplace_back(50);
     vector<int>::iterator it = v.begin();
-    for (auto it = v.begin(); it < v.end();it++){
-        cout << *it << " ";
+    for(auto it : v){
+        cout << it << " ";
     }
     cout << endl;
     v.insert(v.begin(), 10);
