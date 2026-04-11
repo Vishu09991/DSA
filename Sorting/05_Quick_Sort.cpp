@@ -13,12 +13,12 @@ int partitionFunc(vector<int> &arr, int low, int high) {
     int j = high;
 
     while (i < j) {
-        // Move i right
+        // Move i right (only less than = -->1 condition)
         while (arr[i] <= pivot && i <= high - 1) {
             i++;
         }
 
-        // Move j left
+        // Move j left (only greater than-->1 condition)
         while (arr[j] > pivot && j >= low + 1) {
             j--;
         }
